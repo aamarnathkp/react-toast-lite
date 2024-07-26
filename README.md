@@ -47,6 +47,8 @@ The following props are expected:
 | message  |  `true`  |                      `string`                       |
 | position | `false`  |                                                     | `top-center` |
 | action   | `false`  | **info** or **success** or **warning** or **error** |    `info`    |
-| duration | `false`  |          **3** or **5** or **8** or **10**          |     `5`      |
+| duration | `false`  |     **0** or **3** or **5** or **8** or **10**      |     `5`      |
+
+duration **0** means the toast won't close automatically, but we can click the close button to close it manually.
 
 position value can be **top-center** or **top-left** or **top-right** or **bottom-center** or **bottom-left** or **bottom-right**

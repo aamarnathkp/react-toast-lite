@@ -20,12 +20,15 @@ const Toast = ({
         let timer: any;
         if (open) {
             setIsOpen(true);
-            timer = setTimeout(() => {
-                setIsOpen(false);
-            }, duration * 1000);
+            duration &&
+                (timer = setTimeout(() => {
+                    setIsOpen(false);
+                }, duration * 1000));
+        } else {
+            setIsOpen(false);
         }
         return () => {
-            clearTimeout(timer);
+            timer && clearTimeout(timer);
         };
     }, [open]);
 
