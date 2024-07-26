@@ -1,0 +1,123 @@
+.toast-comp-container {
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    align-items: start;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.toast-pos-top-center {
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.toast-pos-bottom-center {
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.toast-pos-top-left {
+    top: 0;
+    left: 0;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.toast-pos-bottom-left {
+    bottom: 0;
+    left: 0;
+    justify-content: start;
+    align-items: end;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.toast-pos-top-right {
+    top: 0;
+    right: 0;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.toast-pos-bottom-right {
+    bottom: 0;
+    right: 0;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.toast-comp-message {
+    position: relative;
+    width: 100%;
+    max-width: 40%;
+    min-width: 70px;
+    padding: 20px;
+    text-overflow: ellipsis;
+    background-color: #ff6f64fa;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    pointer-events: auto;
+}
+
+.toast-comp-button {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: #ffffff;
+    color: #ff6f64fa;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    border: solid 1px #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.toast-comp-message-info {
+    background-color: #c9aa3ffa;
+}
+
+.toast-comp-button-info {
+    color: #c9aa3ffa;
+}
+
+.toast-comp-message-warning {
+    background-color: #ff6f64fa;
+}
+
+.toast-comp-button-warning {
+    color: #ff6f64fa;
+}
+
+.toast-comp-message-success {
+    background-color: #00b894fa;
+}
+
+.toast-comp-button-success {
+    color: #00b894fa;
+}
