@@ -63,9 +63,9 @@
 .toast-comp-message {
     position: relative;
     width: 100%;
-    max-width: 40%;
-    min-width: 70px;
-    padding: 20px;
+    max-width: 30%;
+    min-height: 65px;
+    padding: 10px 20px;
     text-overflow: ellipsis;
     background-color: #ff6f64fa;
     color: #ffffff;
