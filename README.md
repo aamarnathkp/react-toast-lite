@@ -41,8 +41,6 @@ export default App;
 
 The following props are expected:
 
-The following props are expected:
-
 | Props    | Required |                        Value                        |   Default    |
 | -------- | :------: | :-------------------------------------------------: | :----------: |
 | open     |  `true`  |                      `boolean`                      |   `false`    |
