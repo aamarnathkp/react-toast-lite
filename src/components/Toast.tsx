@@ -5,7 +5,13 @@ import { ToastProps } from "../types";
 
 import "../styles/styles.css";
 
-const Toast = ({ action, message, open = false, position }: ToastProps) => {
+const Toast = ({
+    action,
+    message,
+    open = false,
+    position,
+    duration = 5,
+}: ToastProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const { posClassName, toastActionClassName, toastBtnActionClassName } =
         getClassNames(position, action);
@@ -16,7 +22,7 @@ const Toast = ({ action, message, open = false, position }: ToastProps) => {
             setIsOpen(true);
             timer = setTimeout(() => {
                 setIsOpen(false);
-            }, 3000);
+            }, duration * 1000);
         }
         return () => {
             clearTimeout(timer);

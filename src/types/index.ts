@@ -7,11 +7,12 @@ export type PositionType =
     | "bottom-left";
 
 export type ActionType = "info" | "success" | "warning" | "error";
+export type DurationType = 3 | 5 | 8 | 10;
 
 export interface ToastProps {
     open: boolean;
     message: string;
-    duration?: number;
+    duration?: DurationType;
     position?: PositionType;
     action: ActionType;
     multiple?: boolean;

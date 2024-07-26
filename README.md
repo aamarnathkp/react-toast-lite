@@ -47,5 +47,6 @@ The following props are expected:
 | message  |  `true`  |                      `string`                       |
 | position | `false`  |                                                     | `top-center` |
 | action   | `false`  | **info** or **success** or **warning** or **error** |    `info`    |
+| duration | `false`  |          **3** or **5** or **8** or **10**          |     `5`      |
 
 position value can be **top-center** or **top-left** or **top-right** or **bottom-center** or **bottom-left** or **bottom-right**

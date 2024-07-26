@@ -1,6 +1,6 @@
 {
     "name": "react-toast-lite",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "The react-toast-lite is a lightweight, easy-to-use toast notification component for React applications. It provides a simple way to display brief messages in the form of toast notifications, which can be used to inform users about the success, error, or status of an operation.",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
