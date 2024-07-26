@@ -14,7 +14,7 @@ The `react-toast-lite` is a lightweight, easy-to-use toast notification componen
 
 ## Usage / Example
 
-```javascript
+```jsx
 import React, { useState } from "react";
 import { ToastLite } from "react-toast-lite";
 
