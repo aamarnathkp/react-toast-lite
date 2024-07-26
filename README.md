@@ -45,7 +45,7 @@ The following props are expected:
 
 | Props    | Required |                        Value                        |   Default    |
 | -------- | :------: | :-------------------------------------------------: | :----------: |
-| open     |  `true`  |                      `boolean`                      |              |
+| open     |  `true`  |                      `boolean`                      |   `false`    |
 | message  |  `true`  |                      `string`                       |
 | position | `false`  |                                                     | `top-center` |
 | action   | `false`  | **info** or **success** or **warning** or **error** |    `info`    |
