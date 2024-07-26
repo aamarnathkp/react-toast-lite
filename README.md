@@ -37,6 +37,16 @@ function App() {
 export default App;
 ```
 
+## Screenshots
+
+<img width="637" alt="success_toast" src="https://github.com/user-attachments/assets/8a118177-97d7-4ace-a386-66685df42cdd">
+
+<img width="637" alt="info_toast" src="https://github.com/user-attachments/assets/0d10d66b-fbfa-4b5c-83c4-5c8f6f59c5f5">
+
+<img width="637" alt="error_toast" src="https://github.com/user-attachments/assets/f26194cd-4100-49dd-8024-1cee6a7a674b">
+
+
+
 ## Props
 
 The following props are expected:
